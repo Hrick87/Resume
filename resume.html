@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 	padding: 0.5in; /* controls margins */
 	width: 8.5in;
-	height: 22.9in;
+	height: 11in;
 	background-color: white;
 	box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
 }
@@ -24,6 +24,15 @@
 
 hr {
 	color: #105496;
+  border-style: solid;
+
+  border-width: 2px 0 0;
+
+  clear: both;
+
+  margin: 0 0 0px;
+
+  height: 0;
 }
 
 h1 {
@@ -52,49 +61,49 @@ h3 {
 		</style>
 		<title>Resume</title>
 	</head>
-
+  <font size="1">
 	<body>
 		<div class="canvas-container">
 			<div class="multicolumn">
 				<div class="leftColumn">
-				<h1>Hunter E. Rick</h1>	
+				<h3>Hunter E. Rick</h3>	
 					<div class="border-right">
 						<center><h3>Education</h3></center><hr>
 						<body>
-							<b>MiraCosta Community College</b><br>
-							<p>&emsp; General Education (2016-2019)</p>
-
-							<b>City College of San Francisco</b><br>
-							<p>&emsp; General Education (2018)</p>
-
-							<b>Transfer Student at Chico State University</b><br>
+							<b>Senior at Chico State University</b><br>
 							<p>&emsp; Computer Science Major (2019-current)</p>	
-							<hr>
 						</body>
-						<center><h3>Work Experience</h3></center><hr>
+						<center><h3>Tech-related skills</h3></center><hr>
 						<body>
-							<p><b>Two Brothers from Italy</b> (delivery driver)</p>
-							<p>&emsp; (2017-2018)</p>
+							<p><b> Experience with </b></p>
+							<ul>
+								<li> Bash Scripting/Commands (5 years)</li>
+								<li> Parallel Programming Methods (1 year)</li>
+								<li> Ubuntu Linux (5 years)</li>
+								<li> Git Repositories (2 years)</li>
+								<li> Selenium (1 year)</li>
+								<li> Routers and Networking (2 years)</li>
+								<li> Docker (1 year)</li>
+								<li> MariaDB (2 years)</li>
+								<li> Powershell (1 year)</li>
+								<li> Kali Linux (2 years)</li>
+								<li> Django (1 year)</li>
+								<li> Flutter (1 year)</li>
+							</ul>
+						</body>
 
-							<p><b>Domino's Pizza</b> (delivery driver)</p>
-							<p>&emsp; (2018-2019)</p>
-
-							<p><b>Pizza Hut</b> (delivery driver)</p>
-							<p>&emsp; (2019-2021)</p>
-
-							<p><b>Freelance Audio Mixing Engineer</b></p>
-							<p>&emsp; (2016-current)</p>
-
-							<h5> Skills learned from work experience </h5>
+						<center><h3>Last Workplace</h3></center><hr>
+						<body>
+							<b> Marketplace </b> (Food Service 2022-Current)		
+						</body>
+						<h5> Skills learned from work experience </h5>
 							<ul> 
 								<li> Engaging with customers and providing quality service </li>
-								<li> Time management making sure deliveries were efficient </li>
 								<li> Being a cooperative and enjoyable member of a team </li>
 								<li> Keeping workstation clean and up to health regulation standards </li>
 								<li> Dealing with customer complaints quickly and correctly </li>
 
 							</ul>
-							<hr>
 						</body>
 						<center><h3>Personal Projects</h3></center><hr>
 						<body>
@@ -104,9 +113,8 @@ h3 {
 							<p>Resume built from html and internal CSS styling, hosted on Github</p>
 							<p><b>Raspberry Pi 4 VPN</b></p>
 							<p> Turned my headless Raspberry Pi 4 into a VPN using piVPN </p>
-							<p><b>SSH over WAN</b></p>
-							<p>Configured router, firewall, and desktop to allow SSH connections over WAN using public IP's</p>
-						<hr>
+							<p><b>Web App for Table Top Games</b></p>
+							<p>Building a web app with Flutter (Dart) and Firebase</p>
 						</body>
 						<center><h3>References</h3></center><hr>
 						<body>
@@ -118,30 +126,8 @@ h3 {
 							<p> &emsp; Contact:</p>
 							<p> &emsp; &emsp; eyharris@csuchico.edu </p>
 							<p> &emsp; &emsp; 530-898-4304 </p>
-						<hr>
 						</body>
-						<center><h3>Other tech-related skills</h3></center><hr>
-						<body>
-							<p><b> Experience with </b></p>
-							<ul>
-								<li> Bash commands (5 years)</li>
-								<li> Ubuntu (5 years)</li>
-								<li> Git Repositories (2 years)</li>
-								<li> Windows 10 (6 years)</li>
-								<li> Selenium (1 year)</li>
-								<li> Routers and Networking (2 years)</li>
-								<li> Flex and Bison (1 year)</li>
-								<li> Docker (1 year)</li>
-								<li> MariaDB (2 years)</li>
-								<li> Valgrind (3 years)</li>
-								<li> GDB (5 years)</li>
-								<li> Visual Studio Code (5 years)</li>
-								<li> Powershell (1 year)</li>
-								<li> Kali Linux (2 years)</li>
-								<li> Django (1 year)</li>
-							</ul>
-						</body>
-					</div>
+											</div>
 				</div>
 				<div class="rightColumn"> <br><br><br><br>
 					<center><h3>Personal Information</h3></center>
@@ -159,21 +145,22 @@ h3 {
 							</div><br>
 							<div class="hyperLink">
 								<a href="https://www.linkedin.com/in/hunter-rick-4b9572202/">LinkedIn</a>
-							</div><br>
-							<div class="hyperLink">
-								<a href="https://www.hackerrank.com/hrick">Hacker Rank</a>
-							</div><br><hr>
+							</div>
+							<hr>
 						</center>
 					</body>
 					<center><h3>Languages known</h3></center>
 					<body>
 						<center>
-							<p>C</p>
-							<p>C++</p>
-							<p>Python</p>
-							<p>SQL</p>
-							<p>CSS</p>
-							<p>HTML</p>
+							<p>C, 
+							C++, 
+							Python, 
+							Golang, 
+							Dart, 
+							OCAML, 
+							SQL, 
+							CSS, 
+							HTML</p>
 						</center><hr>
 					</body>
 					<center><h3>Extra Curriculars</h3></center>
@@ -200,4 +187,5 @@ h3 {
 			</div>
 		</div>
 	</body>
+	</font>
 </html> 
