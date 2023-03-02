@@ -4,12 +4,12 @@
 		<style>
 .canvas-container {
 	margin: 0 auto; /* for centering, feel free to use flexbox or some other method*/
-	box-sizing: border-box;
+	box-sizing: content-box;
 	padding: 0.5in; /* controls margins */
 	width: 8.5in;
 	height: 11in;
 	background-color: white;
-	box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+	<!--box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);-->
 }
 
 .multicolumn {
@@ -41,23 +41,37 @@ h1 {
 	color: #0A3864;
 	margin-bottom: 0;
 	margin-top: 0;
+	font-size: 13px;
 }
+
+h2 {
+	column-span: all;
+	text-align: center;
+	color: #0A3864;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 13px;
+}
+
 
 h3 {
 	color: #105496;
 	margin-bottom: 0;
 	margin-top: 1;
+	font-size: 13px;
 }
 
 p {
 	margin-bottom: 0;
 	margin-top: 0;
+	font-size: 13px;
 	
 }
 
 ul {
 	margin-bottom: 0;
 	margin-top: 0;
+	font-size: 13px;
 	
 }
 
@@ -74,11 +88,12 @@ ul {
 
 .hyperLink a:hover { 
 	text-decoration: none 
+	font-size: 10px;
 }
 		</style>
 		<title>Resume</title>
 	</head>
-  <font size="1.5">
+	<!--<font size="2">-->
 	<body>
 		<div class="canvas-container">
 			<div class="multicolumn">
@@ -87,8 +102,8 @@ ul {
 					<div class="border-right">
 						<center><h3>Education</h3></center><hr>
 						<body>
-							<b>Chico State University</b><br>
-							<p>Bachelor's Degree in Computer Science 2022</p>
+							<p><b>Chico State University</b><br>
+							Bachelor's Degree in Computer Science 2022</p>
 						</body>
 						<center><h3>Technical Skills</h3></center><hr>
 						<body>
@@ -124,8 +139,8 @@ ul {
 
 						<center><h3>Last Workplace</h3></center><hr>
 						<body>
-							<b> Associated Student's of CSU Marketplace </b> 
-							<p> Cook/Server Aug 2022 - Dec 2022 </p>		
+							<p><b> Associated Student's of CSU Marketplace </b></p> 
+							<p>Cook/Server Aug 2022 - Dec 2022 </p>		
 							<ul> 
 								<li> Learned effective communication skills between team members </li>
 								<li> Effectively multitasked priorities in a fast paced work environment </li>
@@ -136,11 +151,11 @@ ul {
 						</body>
 																	</div>
 				</div>
-				<div class="rightColumn"> <br><br><br><br>
+				<div class="rightColumn"><br>
 					<center><h3>Contact Information</h3></center>
 					<body>
 						<center>
-							hrick@mail.csuchico.edu | 1-760-547-4295 | 920 W 4th Ave #136 Chico, CA 95926
+							<p>hrick@mail.csuchico.edu | 1-760-547-4295 | 920 W 4th Ave #136 Chico, CA 95926</p>
 							<hr>
 							<h3><b>Portfolio</b></h3>
 							<div class="hyperLink">
